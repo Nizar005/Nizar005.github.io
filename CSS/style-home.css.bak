@@ -12,7 +12,9 @@ body{
 body{
 	background-color:black;
 	background-image:url('../Images/Bcakground.png');
-	background-size:1500px;
+	background-size:2000px;
+	background-repeat:no-repeat;
+	background-position: center center;
 	color:#ffffff;
 	font-family: sans-serif;
 }
@@ -58,11 +60,11 @@ a:active{
 }
 
 .pages li a:hover {
-	background-color: #111;
+	background-color: #0011a8;
 }
 
 .active {
-	background-color: #0011a8;
+	background-color: #0018f2;
 }
 
 

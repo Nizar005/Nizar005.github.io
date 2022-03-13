@@ -12,7 +12,9 @@ body{
 body{
 	background-color:black;
 	background-image:url('../Images/Bcakground.png');
-	background-size:1500px;
+	background-size:2000px;
+	background-repeat:no-repeat;
+	background-position: center bottom;
 	color:#ffffff;
 	font-family: sans-serif;
 }
