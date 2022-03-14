@@ -1,0 +1,218 @@
+/*Global*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin-bottom:100px;
+}
+
+body{
+	background-color:black;
+	background-image:url('../images/Bcakground.png');
+	background-size:2000px;
+	background-repeat:no-repeat;
+	background-position: center bottom;
+	color:#ffffff;
+	font-family: sans-serif;
+}
+
+a {
+	color:#7a97ff;
+}
+
+a:hover{
+	color:#0038ff;
+}'
+
+a:active{
+	color:#001561;
+}
+
+
+.pages{
+	margin:0px;
+	padding:0px;
+	background-color:#00031c;
+}
+
+.pages ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.pages li {
+	float:left;
+	border-right: 1px solid #bbb;
+}
+
+
+.pages li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.pages li a:hover {
+	background-color: #0011a8;
+}
+
+.active {
+	background-color: #0018f2;
+}
+
+
+.heading{
+	display:flex;
+	width:100%;
+	height:400px;
+	background-image:url('../images/camping.png');
+	background-size:1500px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	justify-content:center;
+	align-items:center;
+}
+
+.heading h1{
+	display:flex;
+	text-align:center;
+	font-size:70px;	
+}
+
+.footer{
+	text-align:Center;
+	color:white;
+	font-size:2vw;
+	margin:50px;
+}
+
+
+/*Home Page*/
+.container-home{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+}
+
+.about-me{
+	border:2px solid white;
+	border-radius:25px;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:30px;
+	text-align:center;
+}
+.con-list{
+	border:3px solid white;
+	border-radius:25px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+.li1{
+	Width:400px;
+	margin:10px;
+	padding-left:10px;
+	border:2px solid white;
+	list-style-position: inside;
+	border-radius:20px;
+	font-size:20px;
+}
+
+.li2{
+	Width:400px;
+	margin:10px;
+	padding-left:10px;
+	border:2px solid white;
+	list-style-position: inside;
+	border-radius:20px;
+	font-size:20px;
+}
+
+.li3{
+	Width:400px;
+	margin:10px;
+	padding-left:10px;
+	border:2px solid white;
+	list-style-position: inside;
+	border-radius:20px;
+	font-size:20px;
+}
+
+
+
+/*About Page*/
+.container-about{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+	
+}
+.about-website{
+	border:2px solid white;
+	border-radius:25px;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:30px;
+	text-align:center;
+}
+
+
+
+/*Project Page*/
+.project{
+	font-size:80px;
+	text-align:center;
+	padding:40px;
+}
+
+.container-project{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+	
+}
+
+.con-image{
+	display:flex;
+	margin-left:10%;
+	margin-right:10%;
+	border:2px solid white;
+	padding:20px;
+	border-radius:25px;
+	font-size: 2vw;
+	flex-flow:column wrap;
+}
+
+.con-image img{
+	display:flex;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+
+.con-image a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:#0008eb;
+	border-radius:20px;
+	margin:20px;
+}
