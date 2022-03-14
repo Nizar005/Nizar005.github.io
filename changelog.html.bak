@@ -9,6 +9,7 @@
 	<div class="pages">
 		<ul>
 			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="project.html">Project</a></li>
 			<li class="active"><a href="changelog.html">Changelog</a></li>
@@ -23,7 +24,7 @@
 		<div class="changelog">
 			<h1>Change log</h1>
 			<ul>
-				<li>#22.15 14/03/2022 adding changelog and edit the navbar</li>
+				<li>#22.30 14/03/2022 adding changelog and edit the navbar</li>
 				<li>#20.15 14/03/2022 fixed css not showing</li>
 				<li>#20.15 14/03/2022 furher fix for css not showing again</li>
 				<li>#20.00 14/03/2022 Fix to css not showing (again)</li>

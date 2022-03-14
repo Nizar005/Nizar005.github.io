@@ -59,12 +59,12 @@ a:active{
 	text-decoration: none;
 }
 
-.pages li:nth-child(2){
+.pages li:nth-child(3){
 	float:right;
 	border-left: 1px solid #bbb;
 }
 
-.pages li:nth-child(4){
+.pages li:nth-child(5){
 	float:right;
 	border-left: 1px solid #bbb;
 }
@@ -258,4 +258,35 @@ a:active{
 	margin-right:10%;
 	font-size:20px;
 	padding:20px;
+}
+
+/*contact page*/
+.container-contact{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+}
+
+.contact{
+	border:2px solid white;
+	border-radius:25px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.contact a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:#0008eb;
+	border-radius:20px;
+	margin:20px;
+}
+
+.contact h1 {
+	font-size:50px;
+	text-align:center;
 }

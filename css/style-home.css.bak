@@ -12,7 +12,7 @@ body{
 body{
 	background-color:black;
 	background-image:url('../images/Bcakground.png');
-	background-size:3500px;
+	background-size:3000px;
 	background-repeat:repeat;
 	background-position: center center;
 	color:#ffffff;
@@ -258,4 +258,35 @@ a:active{
 	margin-right:10%;
 	font-size:20px;
 	padding:20px;
+}
+
+/*contact page*/
+.container-contact{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+}
+
+.contact{
+	border:2px solid white;
+	border-radius:25px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.contact a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:#0008eb;
+	border-radius:20px;
+	margin:20px;
+}
+
+.contact h1 {
+	font-size:50px;
+	text-align:center;
 }
