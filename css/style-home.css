@@ -1,8 +1,8 @@
 /*Global*/
-
 *{
 	margin:0;
 	padding:0;
+	box-sizing:border-box;
 }
 
 body{
@@ -14,9 +14,9 @@ body{
 	background-image:url('../images/Bcakground.png');
 	background-size:3000px;
 	background-repeat:repeat;
-	background-position: center center;
+	background-position:center center;
 	color:#ffffff;
-	font-family: sans-serif;
+	font-family:sans-serif;
 }
 
 a {
@@ -31,66 +31,159 @@ a:active{
 	color:#001561;
 }
 
-
-.pages{
-	margin:0px;
-	padding:0px;
-	background-color:#00031c;
+/*global navbar*/
+nav{
+	background-color:#010059;
 }
 
-.pages ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+nav:after{
+	content:'';
+	clear:both;
+	display:table;
 }
 
-.pages li {
+nav .logo{
 	float:left;
-	border-right: 1px solid #bbb;
-	font-size:30px;
+	font-family:"Audiowide", sans-serif;
+	font-size:27px;
+	font-weight:800;
+	line-height:70px;
+	padding-left:20px;
 }
 
-
-.pages li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding:30px;
-	text-decoration: none;
-}
-
-.pages li:nth-child(3){
+nav ul{
 	float:right;
-	border-left: 1px solid #bbb;
+	list-style:none;
+	margin-right:40px;
+	position:relative;
 }
 
-
-.pages li:nth-child(4){
-	float:right;
-	border-left: 1px solid #bbb;
+nav ul li{
+	float:left;
+	display:inline-block;
+	background:black;
+	margin:0px 5px;
+	background-color:#010059;
 }
 
-.pages li:nth-child(6){
-	float:right;
-	border-left: 1px solid #bbb;
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	line-height:70px;
+	font-size:18px;
+	padding:2px 15px;
 }
 
-.pages li a:hover {
-	background-color: #0011a8;
+nav ul li a:hover{
+	color:#00b3ff;
+	border-radius:10px;
+	box-shadow: 0px 0px 5px #00b3ff,0px 0px 5px #00b3ff;
 }
 
-.pages li img {
-	height:16px;
-	width:30px;
-
+nav ul ul li a:hover{
+	color:#00b3ff;
+	box-shadow:none;
 }
 
-.active {
-	background-color: #0018f2;
+nav ul ul{
+	border-top:2px solid #0095ff;
+	position:absolute;
+	top:70px;
+	visibility:hidden;
+	opacity: 0;
 }
 
+nav ul li:hover > ul{
+	visibility:visible;
+	opacity: 1;
+}
 
+nav ul ul li{
+	position:relative;
+	border-top:0.5px solid #0095ff;
+	margin:0px;
+	width:150px;
+	float:none;
+	display:list-item;
+}
+
+nav ul ul li a{
+	line-height:50px;
+}
+
+/*mobile user*/
+.show, .list, input{
+	display:none;
+}
+/*
+@media all and (max-width: 803px){
+	nav ul{
+		margin-right: 0px;
+		float: left;
+	}
+
+	nav .logo{
+		padding-left:  20px;
+		width: 100%;
+	}
+
+	nav ul li, nav ul ul li{
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul{
+		top: 70px;
+		position: static;
+		float: none;
+		display: none;
+		opacity:1;
+		visibility: visible;
+	}
+
+
+
+	nav ul ul li{
+		  position: static;
+			padding-left: 20px;
+	}
+
+	.show{
+		display: block;
+		color:white;
+		font-size: 18px;
+		padding: 0px 20px;
+		line-height:70px;
+	}
+
+	.show:hover{
+		color:#00b3ff;
+	}
+
+	.list{
+		display: block;
+		color: white;
+		position: absolute;
+		right: 40px;
+		line-height: 70px;
+		font-size: 30px;
+	}
+
+	nav ul li a:hover{
+		box-shadow: none;
+	}
+
+	.show + a, ul{
+		display: none;
+	}
+
+	[id^=btn]:checked + ul{
+		display: block;
+	}
+}
+*/
+
+/*global header*/
 .heading{
 	display:flex;
 	width:100%;
@@ -98,7 +191,7 @@ a:active{
 	background-image:url('../images/camping.png');
 	background-size:1500px;
 	background-repeat:no-repeat;
-	background-position: center center;
+	background-position:center center;
 	justify-content:center;
 	align-items:center;
 }
@@ -106,15 +199,19 @@ a:active{
 .heading h1{
 	display:flex;
 	text-align:center;
-	font-size:70px;	
+	font-size:70px;
 }
 
+
+
+/*global footer*/
 .footer{
 	text-align:Center;
 	color:white;
 	font-size:2vw;
 	margin:50px;
 }
+
 
 
 /*Home Page*/
@@ -133,18 +230,18 @@ a:active{
 	font-size:30px;
 	text-align:center;
 }
-.con-list{
+.con-panel{
 	border:3px solid white;
 	border-radius:25px;
 	display:flex;
-	flex-flow:row wrap;
+	flex-flow:row nowrap;
 	justify-content:center;
 	margin-left:10%;
 	margin-right:10%;
 }
 
 
-.li1{
+.pa1{
 	Width:400px;
 	margin:10px;
 	padding-left:10px;
@@ -154,22 +251,22 @@ a:active{
 	font-size:25px;
 }
 
-.li2{
+.pa2{
 	Width:400px;
 	margin:10px;
 	padding-left:10px;
 	border:2px solid white;
-	list-style-position: inside;
+	list-style-position:inside;
 	border-radius:20px;
 	font-size:25px;
 }
 
-.li3{
+.pa3{
 	Width:400px;
 	margin:10px;
 	padding-left:10px;
 	border:2px solid white;
-	list-style-position: inside;
+	list-style-position:inside;
 	border-radius:20px;
 	font-size:25px;
 }
@@ -182,7 +279,7 @@ a:active{
 	margin-left:5%;
 	margin-right:5%;
 	background-color:#00046b;
-	
+
 }
 .about-website{
 	border:2px solid white;
@@ -207,7 +304,7 @@ a:active{
 	margin-left:5%;
 	margin-right:5%;
 	background-color:#00046b;
-	
+
 }
 
 .con-image h6{
@@ -245,6 +342,8 @@ a:active{
 	height:30px;
 }
 
+
+
 /*Change log*/
 .container-changelog{
 	margin-bottom:20px;
@@ -277,6 +376,8 @@ a:active{
 	font-size:20px;
 	padding:20px;
 }
+
+
 
 /*contact page*/
 .container-contact{
