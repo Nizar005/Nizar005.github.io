@@ -199,23 +199,13 @@ nav ul li a:hover{
 }
 
 
-/*About Page*/
-.container-about{
+/*changelog Page*/
+.container-change{
 	margin-bottom:20px;
 	margin-left:5%;
 	margin-right:5%;
 	background-color:#00046b;
-
 }
-.about-website{
-	border:2px solid white;
-	border-radius:25px;
-	margin-left:10%;
-	margin-right:10%;
-	font-size:30px;
-	text-align:center;
-}
-
 
 .changelog{
 	border:2px solid white;
@@ -243,14 +233,14 @@ nav ul li a:hover{
 }
 
 
-/*Project Page*/
-.project{
+/*gallery Page*/
+.gallery{
 	text-align:center;
 	padding:40px;
 	font-size: 80px;
 }
 
-.container-project{
+.container-gallery{
 	margin-bottom:20px;
 	margin-left:5%;
 	margin-right:5%;
@@ -362,5 +352,56 @@ nav ul li a:hover{
 	.contact a{
 		padding: 8px 10px;
 		font-size: 15px;
+	}
+}
+
+
+/*project*/
+.container-project{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+}
+
+.con-project a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:#0008eb;
+	border-radius:20px;
+	margin:20px;
+	font-size: 20px;
+}
+
+.con-project a img{
+	display: none;
+}
+
+.project{
+	font-size:50px;
+	line-height: 60px;
+	text-align:center;
+}
+
+.con-project a:hover .image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+
+/*project mobile*/
+@media only screen and (max-width: 390px){
+	.con-project a:hover .image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		height: 130%;
 	}
 }
