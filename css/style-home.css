@@ -31,7 +31,39 @@ a:active{
 	color:#001561;
 }
 
+/*global header*/
+.heading{
+	display:flex;
+	width:100%;
+	height:300px;
+	background-image:url('../images/camping.png');
+	background-size:1500px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	justify-content:center;
+	align-items:center;
+}
+
+.heading h1{
+	display:flex;
+	text-align:center;
+	font-size:70px;
+}
+
+/*header for small screen*/
+@media only screen and (max-width: 390px){
+	.heading h1{
+		font-size: 50px;
+	}
+}
+
+
 /*global navbar*/
+nav{
+	padding: 0;
+	margin: 0; 
+}
+
 nav{
 	background-color:#010059;
 	height:50px;
@@ -97,31 +129,6 @@ nav ul li a:hover{
 
 }
 
-/*global header*/
-.heading{
-	display:flex;
-	width:100%;
-	height:300px;
-	background-image:url('../images/camping.png');
-	background-size:1500px;
-	background-repeat:no-repeat;
-	background-position:center center;
-	justify-content:center;
-	align-items:center;
-}
-
-.heading h1{
-	display:flex;
-	text-align:center;
-	font-size:70px;
-}
-
-/*header for small screen*/
-@media only screen and (max-width: 390px){
-	.heading h1{
-		font-size: 50px;
-	}
-}
 
 /*global footer*/
 .footer{
@@ -174,11 +181,11 @@ nav ul li a:hover{
 
 .img-galery{
 	display: flex;
+	flex-flow: row wrap;
 }
 
 .img-galery img{
 	display: flex;
-	flex-flow: column nowrap;
 	width: 50%;
 	padding: 10px;
 }
@@ -195,11 +202,11 @@ nav ul li a:hover{
 	border-radius:20px;
 	margin:20px;
 	height:20%;
-
+}
 /*homepage for small screen*/
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 700px){
 	.img-galery img{
-		display: block;
+		display: flex;
 		width: 100%;
 	}
 }
