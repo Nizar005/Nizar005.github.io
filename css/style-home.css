@@ -149,55 +149,60 @@ nav ul li a:hover{
 	font-size:30px;
 	text-align:center;
 }
-.con-panel{
-	border:2px solid white;
-	border-radius:25px;
-	display:flex;
-	flex-flow:row wrap;
-	justify-content:center;
-	margin-left:10%;
-	margin-right:10%;
+.about-me p{
+	font-size: 20px;
 }
 
+.down{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
-.pa{
-	Width:100%;
-	margin:10px;
-	padding-left:10px;
-	border:1px solid white;
-	list-style-position: inside;
+.galery{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.galery h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 10px;
+}
+
+.img-galery{
+	display: flex;
+}
+
+.img-galery img{
+	display: flex;
+	flex-flow: column nowrap;
+	width: 50%;
+	padding: 10px;
+}
+
+.galery a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 100rem:
+	text-decoration: none;
+	background-color:#0008eb;
 	border-radius:20px;
-	font-size:25px;
-}
+	margin:20px;
+	height:20%;
 
-
-
-/*homepage mobile*/
+/*homepage for small screen*/
 @media only screen and (max-width: 390px){
-	.about-me{
-		border: 1px solid white;
-	}
-	.about-me h1{
-		font-size: 40px;
-	}
-
-	.about-me p{
-		font-size: 20px;
-	}
-
-	.con-panel{
-		border: 1px solid white;
-	}
-
-	.con-panel h2{
-		font-size: 20px;
-	}
-
-	.con-panel li{
-		font-size: 15px;
+	.img-galery img{
+		display: block;
+		width: 100%;
 	}
 }
-
 
 /*changelog Page*/
 .container-change{
