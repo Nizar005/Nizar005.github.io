@@ -61,7 +61,7 @@ a:active{
 /*global navbar*/
 nav{
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 }
 
 nav{
@@ -304,7 +304,7 @@ nav ul li a:hover{
 	height:20%;
 }
 
-/*project mobile*/
+/*gallery mobile*/
 @media only screen and (max-width: 640px){
 	.con-image h1{
 		font-size: 30px;
@@ -315,7 +315,7 @@ nav ul li a:hover{
 	}
 }
 
-/*project small screen*/
+/*gallery small screen*/
 @media only screen and (max-width: 390px){
 	.project{
 		font-size: 40px
@@ -376,6 +376,19 @@ nav ul li a:hover{
 	background-color:#00046b;
 }
 
+.project{
+	font-size:30px;
+	margin:20px;
+}
+
+.con-project{
+	border: solid 2px white;
+	margin-right: 80px;
+	margin-left: 80px;
+	padding: 30px;
+	border-radius: 20px;
+}
+
 .con-project a {
 	display: block;
 	color: white;
@@ -388,9 +401,15 @@ nav ul li a:hover{
 	font-size: 20px;
 }
 
-.con-project a img{
-	display: none;
+.con-project img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border: solid 1px white;
+	border-radius: 10px;
 }
+
 
 .project{
 	font-size:50px;
@@ -398,22 +417,41 @@ nav ul li a:hover{
 	text-align:center;
 }
 
-.con-project a:hover .image{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	width: 100%;
-}
+
 
 
 /*project mobile*/
-@media only screen and (max-width: 390px){
-	.con-project a:hover .image{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 10px;
-		height: 130%;
+@media only screen and (max-width: 710px){
+	.con-project img{
+		width: 100%;
 	}
+
+	.con-project a {
+		font-size: 15px;
+		padding: 12px 14px;
+	}
+}
+
+
+/*pasal*/
+.con-pasal{
+	background-color: #00046b;
+	margin: 0px;
+	padding: 20px;
+}
+
+.button-verif{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:#0008eb;
+	border-radius:20px;
+	margin:20px;
+	font-size: 20px;
+}
+
+.button-verif:hover{
+	color: white;
 }
