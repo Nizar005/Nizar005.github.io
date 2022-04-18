@@ -424,11 +424,13 @@ nav ul li a:hover{
 @media only screen and (max-width: 710px){
 	.con-project img{
 		width: 100%;
+		margin: 10px;
 	}
 
 	.con-project a {
 		font-size: 15px;
-		padding: 12px 14px;
+		padding: 10px 12px;
+		margin:10px;
 	}
 }
 
@@ -490,7 +492,6 @@ nav ul li a:hover{
 	display: grid;
 	grid-template-columns: auto auto 300px;
 	grid-template-rows: auto auto;
-	gap: 0px;
 }
 
 .con-weapon img{
@@ -516,7 +517,6 @@ nav ul li a:hover{
 
 .con-weapon table{
 	display: grid;
-	margin: 20px;
 	margin-top: auto;
 	margin-bottom: 10px;
 	margin-right: 10px;
@@ -524,7 +524,7 @@ nav ul li a:hover{
 }
 
 .con-weapon td{
-	padding: 2%;
+	padding: 5px;
 	margin-right: auto;
 	font-size: 1.5vw;
 
@@ -537,29 +537,33 @@ nav ul li a:hover{
 }
 
 /*responsive img weapon*/
-@media only screen and (max-width: 890px){
-	.con-weapon img{
-		width: 110%;
+@media only screen and (max-width: 790px){
+	.con-weapon{
+		display: flex;
+		flex-flow: column wrap;
+		padding: 0px;
 	}
-}
 
-@media only screen and (max-width: 700px){
 	.con-weapon img{
-		width: 135%;
+		display: flex;
+		width: 90%;
+		padding: 0;
+		margin: auto;
+		margin-top: 20px;
 	}
-}
-@media only screen and (max-width: 600px){
-	.con-weapon img{
-		width: 180%;
+
+	.con-weapon h1{
+		display: flex;
+		margin: auto;
+		font-size: 4Svw;
 	}
-}
-@media only screen and (max-width: 550px){
-	.con-weapon img{
-		width: 230%;
+
+	.con-weapon table{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
 	}
-}
-@media only screen and (max-width: 500px){
-	.con-weapon img{
-		width: 400%;
+	.con-weapon td{
+		font-size: 2.5vw;
 	}
 }
