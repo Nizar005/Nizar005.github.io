@@ -455,3 +455,111 @@ nav ul li a:hover{
 .button-verif:hover{
 	color: white;
 }
+
+
+
+/*weapon room*/
+.container-weapon{
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#00046b;
+}
+
+.headerimg{
+	display: flex;
+	justify-content: center;
+}
+
+.headerimg img{
+	width: 60%;
+	margin: 20px;
+}
+
+.weapon{
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+}
+
+.con-weapon{
+	margin-left: 50px;
+	margin-right: 50px;
+	border: solid 2px white;
+	border-radius: 20px;
+	display: grid;
+	grid-template-columns: auto auto 300px;
+	grid-template-rows: auto auto;
+	gap: 0px;
+}
+
+.con-weapon img{
+	display: grid;
+	height:auto;
+	margin: 20px;
+	margin-right:auto;
+	width:90%;
+	grid-column: 1/ span 2;
+	grid-row: 1 / span 2 ;
+}
+
+.con-weapon h1{
+	display: grid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: auto;
+	padding: 10px;
+	width: auto;
+	font-size: 4vw;
+}
+
+.con-weapon table{
+	display: grid;
+	margin: 20px;
+	margin-top: auto;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.con-weapon td{
+	padding: 2%;
+	margin-right: auto;
+	font-size: 1.5vw;
+
+}
+
+
+.con-weapon table, tr, td{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+/*responsive img weapon*/
+@media only screen and (max-width: 890px){
+	.con-weapon img{
+		width: 110%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.con-weapon img{
+		width: 135%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.con-weapon img{
+		width: 180%;
+	}
+}
+@media only screen and (max-width: 550px){
+	.con-weapon img{
+		width: 230%;
+	}
+}
+@media only screen and (max-width: 500px){
+	.con-weapon img{
+		width: 400%;
+	}
+}
