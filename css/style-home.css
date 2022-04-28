@@ -425,6 +425,8 @@ nav ul li a:hover{
 	.con-project img{
 		width: 100%;
 		margin: 10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.con-project a {
