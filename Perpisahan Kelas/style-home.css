@@ -1,0 +1,18 @@
+*{
+	margin:20px;
+	background-color:#086e04;
+}
+
+.head{
+	font-size:50px;
+	text-align:center;
+}
+
+.img-cont{
+	display:flexbox;
+}
+
+.image{
+	display:flexbox;
+	height:300px;
+}
