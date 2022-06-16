@@ -1,18 +1,47 @@
 *{
 	margin:20px;
-	background-color:#086e04;
+	background-color:#ffc773;
+	font-family:sans-serif;
+}
+
+.cont{
+	margin:20px;
+	background-color:#fcba03;
+	padding:20px;
+	border-radius:45px;
+	
 }
 
 .head{
 	font-size:50px;
 	text-align:center;
+	background-color:#fcba03;
+	margin:20px;
+}
+
+.cont p{
+	margin:20px;
+	font-size:20px;
+	text-align:center;
+	background-color:#fcba03;
+	font-weight:20;
 }
 
 .img-cont{
-	display:flexbox;
+	display:flex;
+	margin: 0 0;
+	padding:20px;
+	flex-flow:row wrap;
+	justify-content:center;
+	background-color:#fcba03;
 }
 
+
+
 .image{
-	display:flexbox;
-	height:300px;
+	display:flex;
+	background-color:#fcba03;
+	margin: 0 px;
+	padding:10px;
+	height:400px;
 }
