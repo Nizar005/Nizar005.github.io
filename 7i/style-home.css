@@ -14,12 +14,12 @@ header{
 }
 
 header h1{
-	font-size:50px;
+	font-size:5vw;
 	text-align:center;
 }
 
 header p{
-	font-size:20px;
+	font-size:2vw;
 	text-align:center;
 }
 
@@ -33,16 +33,22 @@ header p{
 }
 
 .cont h1{
-	font-size:50px;
+	font-size:3vw;
 	text-align:center;
 	margin:20px;
 }
 
+
 .cont p{
-	margin:20px;
+	margin:1vw;
 	font-size:20px;
 	text-align:center;
 	font-weight:20;
+}
+
+
+p-image{
+	font-size:1vw;
 }
 
 .subcont{
@@ -81,7 +87,7 @@ header p{
     vertical-align: top;
 }
 .tree li:before {
-    outline: solid 1px #666;
+    outline: solid 2px #000;
     content: "";
     left: 0;
     position: absolute;
@@ -96,19 +102,20 @@ header p{
 }
 .tree code,
 .tree p {
-    border: solid .1em #666;
+    border: solid .2em #000;
     border-radius: .2em;
     display: inline-block;
     margin: 0 .2em .5em;
     padding: .2em .5em;
     position: relative;
+	font-weight: 600;
 }
 .tree ul:before,
 .tree code:before,
 .tree p:before {
-    outline: solid 1px #666;
+    outline: solid 2px #000;
     content: "";
-    height: .5em;
+    height: .4em;
     left: 50%;
     position: absolute;
 }
@@ -136,4 +143,11 @@ header p{
 	margin: 0 px;
 	padding:10px;
 	height:400px;
+}
+
+/*small*/
+@media only screen and (max-width:600px){
+	header p{
+	font-size:5px;
+	}
 }
