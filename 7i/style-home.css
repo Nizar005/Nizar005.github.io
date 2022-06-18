@@ -23,6 +23,13 @@ header p{
 	text-align:center;
 }
 
+hr{
+	background-color:black;
+	color:black;
+	border:solid 3px black;
+	border-radius:25px;
+}
+
 .cont{
 	margin:40px;
 	background-color:#fcba03;
@@ -67,6 +74,13 @@ header p{
 	border-radius:20px;
 }
 
+.video{
+	display:flex;
+	margin: 0 px;
+	padding:10px;
+	border-radius:20px;
+}
+
 .link a{
 	display:block;
 	margin: 10px;
@@ -76,8 +90,9 @@ header p{
 	text-decoration:none;
 	color:black;
 	height:30px;
-	background-color:#fc7600;
-	border-radius:10px;
+	background-color:#ffa600;
+	border-radius:30px;
+	border:solid 2px black;
 }
 
 
