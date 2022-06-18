@@ -114,6 +114,15 @@ hr{
 	border-radius:20px;
 }
 
+.vidcont{
+	padding:0;
+	margin:10px;
+	background-color:#ffa600;
+	border-radius:20px;
+	
+	
+}
+
 .video{
 	display:flex;
 	margin: 0 px;
