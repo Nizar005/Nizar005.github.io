@@ -13,13 +13,13 @@ header{
 
 header h1{
 	text-align:center;
-	font-size:5vw;
+	font-size:60px;
 	color:#1f77bf;
 }
 
 header h2{
 	text-align:center;
-	font-size:2vw;
+	font-size:30px;
 	color:#1f77bf;
 }
 
@@ -33,6 +33,14 @@ header h2{
 .container{
 	display:flex;
 	flex-flow:column wrap;
+}
+
+.heading{
+	
+}
+
+.listguru{
+	font-size:1.3vw;
 }
 
 .jadwal{
@@ -60,6 +68,33 @@ footer{
 
 footer p, a{
 	color:#e6ffc7;
-	font-size:20px;
+	font-size:1.3vw;
 	text-align:center;
+}
+
+@media only screen and (max-width: 570px){
+	.listguru{
+		font-size:2vw;
+	}
+
+	.jadwal th, td{
+		font-size:2vw;
+		font-weight:700;
+		border:0.3vw solid ;
+	}
+
+}
+
+@media only screen and (max-width: 350px){
+	.listguru{
+		font-size:2.3vw;
+	}
+
+	.jadwal th, td{
+		font-size:2.2vw;
+		font-weight:700;
+		border:0.3vw solid ;
+		padding:3px;
+	}
+
 }
