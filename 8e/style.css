@@ -4,7 +4,7 @@
 	font-family: Trebuchet MS, sans-serif;
 }
 body{
-	background-color:#142433;
+	background-color:#fef1c5;
 }
 
 header{
@@ -14,18 +14,18 @@ header{
 header h1{
 	text-align:center;
 	font-size:60px;
-	color:#1f77bf;
+	color:#1d0d03;
 }
 
 header h2{
 	text-align:center;
 	font-size:30px;
-	color:#1f77bf;
+	color:#1d0d03;
 }
 
 .maincont{
 	border-radius:20px;
-	background-color:#cce2fb;
+	background-color:#ff9500;
 	padding:20px;
 	margin:0 5%;
 }
@@ -35,12 +35,19 @@ header h2{
 	flex-flow:column wrap;
 }
 
-.heading{
-	
-}
 
 .listguru{
 	font-size:1.3vw;
+	padding:20px;
+	margin: 0 20px;
+	padding: 0;
+}
+
+.tartib{
+	font-size:1.3vw;
+	padding:20px;
+	margin: 0 20px;
+	padding: 0;
 }
 
 .jadwal{
@@ -49,7 +56,7 @@ header h2{
 }
 
 .jadwal th{
-	background-color:#389def;
+	background-color:#ffc068;
 }
 
 .jadwal th, td{
@@ -57,7 +64,7 @@ header h2{
 	font-size:1vw;
 	font-weight:700;
 	padding:10px 5px;
-	border:0.3vw solid ;
+	border:0.3vw solid black;
 }
 
 
@@ -67,7 +74,7 @@ footer{
 }
 
 footer p, a{
-	color:#e6ffc7;
+	color:#681110;
 	font-size:1.3vw;
 	text-align:center;
 }
@@ -75,6 +82,10 @@ footer p, a{
 @media only screen and (max-width: 570px){
 	
 	.listguru{
+		font-size:2vw;
+	}
+	
+	.tartib{
 		font-size:2vw;
 	}
 
@@ -97,7 +108,11 @@ footer p, a{
 	.listguru{
 		font-size:2.3vw;
 	}
-
+	
+	.tartib{
+		font-size:2.3vw;
+	}
+	
 	.jadwal th, td{
 		font-size:2vw;
 		font-weight:700;
